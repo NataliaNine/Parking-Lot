@@ -63,7 +63,6 @@ fun main() {
 
         }
 
-
         input = readLine()!!
     }
 }
@@ -134,13 +133,10 @@ fun park(car: Car) {
             println("${car.color} car parked in spot $i.")
             return
         }
-
     }
 
     println("Sorry, the parking lot is full.")
 }
 
 
-class Car(val licensePlate: String, val color: String) {
-
-}
+class Car(val licensePlate: String, val color: String)
